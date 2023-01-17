@@ -1,8 +1,8 @@
-<h1>Microsoft Azure Security Information Event Management (SIEM)</h1>
+<h1>Microsoft Azure Security Information & Event Management (SIEM)</h1>
 
 
 <h2>Description</h2>
-This project walks the user through enhacing Microsoft Azure Microsoft Azure Security Information Event Management (SIEM)<br>
+This project walks the user through Microsoft Azure Security Information & Event Management (SIEM) pipeline which provides real-time analysis generated from activities of threat actors. <br>
 <br />
 
 <h2>Walk-through:</h2>
