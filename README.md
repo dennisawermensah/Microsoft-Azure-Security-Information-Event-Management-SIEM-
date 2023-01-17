@@ -82,3 +82,73 @@ XI. Go to the VM created, copy the public IP and connect to Remote Desktop<br>
 <p align="center">
 <img src="https://i.imgur.com/aP4G2Yj.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
 <br />
+  
+X. In the remote desktop, go to Event Viewer, click on Windows Log, then Security. We see login audits <br>
+<p align="center">
+<img src="https://i.imgur.com/8Nhf4jB.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XI. Ping the Public IP of Remote desktop on your local pc <br>
+<p align="center">
+<img src="https://i.imgur.com/j7VR07R.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XII. Turn off firewall in Remote Desktop. Check the ping message on local pc <br>
+<p align="center">
+<img src="https://i.imgur.com/sKableZ.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XIII. Open PowwerShell and paste custom script and run in the remote desktop to gather logs for  logins <br>
+<p align="center">
+<img src="https://i.imgur.com/2rQPYDB.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XIV. In Azure portal, go to Log analytucs workspace created, click on custom logs, click on 'Add custom logs' <br>
+<p align="center">
+<img src="https://i.imgur.com/xY31yET.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XV. Locate the failed_rdp.log file which has all log data, copy and paste onto notepad on local pc and save. <br>
+<p align="center">
+<img src="https://i.imgur.com/CmcLnQx.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XVI. Click on the folder icon to load the saved logs in the notepad on the local pc <br>
+<p align="center">
+<img src="https://i.imgur.com/PZlLGjO.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XVII. Copy 'failed_rdp.log' location from remote desktop to 'Collection paths' in 'custom log' <br>
+<p align="center">
+<img src="https://i.imgur.com/tjKmxFG.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XVIII. give a custom name <br>
+<p align="center">
+<img src="https://i.imgur.com/TG2m3l4.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XIX. click on logs and run the custom name to see the logs collected <br>
+<p align="center">
+<img src="https://i.imgur.com/tnxeT1l.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XX. Extract fields and give them labels <br>
+<p align="center">
+<img src="https://i.imgur.com/w77LUl9.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XXI. Go to Microsoft Sentinel and 'Add Workbook' <br>
+<p align="center">
+<img src="https://i.imgur.com/e8emCH0.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XXII. Remove all templates and 'Add query' <br>
+<p align="center">
+<img src="https://i.imgur.com/tGOoTKQ.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XXIII. Run custom query, Visualize by map <br>
+<p align="center">
+<img src="https://i.imgur.com/NXAOkWV.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
