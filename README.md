@@ -123,7 +123,7 @@ XVII. Copy 'failed_rdp.log' location from remote desktop to 'Collection paths' i
 <img src="https://i.imgur.com/tjKmxFG.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
 <br />
   
-XVIII. give a custom name <br>
+XVIII. Give a custom name <br>
 <p align="center">
 <img src="https://i.imgur.com/TG2m3l4.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
 <br />
@@ -143,20 +143,15 @@ XXI. Go to Microsoft Sentinel and 'Add Workbook' <br>
 <img src="https://i.imgur.com/e8emCH0.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
 <br />
   
-XXII. Remove all templates and 'Add query' <br>
-<p align="center">
-<img src="https://i.imgur.com/lzAtkls.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
-<br />
-  
-XXIII. Run custom query, Visualize by map <br>
+XXII. Remove all templates and 'Add query', Run custom query, Visualize by map <br>
 <p align="center">
 <img src="https://i.imgur.com/NXAOkWV.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
 <br />
  
-XIX. Refesh Map for new uploaods
+XXIII. Refesh Map for new uploaods
 <p align="center">
-<img src="" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<img src="https://i.imgur.com/lzAtkls.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
 <br />
   
-XXX. Apply frameworks to remediate/mitigate risks.
+XXIV. Apply frameworks to remediate/mitigate risks.
   
