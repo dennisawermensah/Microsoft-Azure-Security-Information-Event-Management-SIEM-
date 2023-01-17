@@ -145,10 +145,18 @@ XXI. Go to Microsoft Sentinel and 'Add Workbook' <br>
   
 XXII. Remove all templates and 'Add query' <br>
 <p align="center">
-<img src="https://i.imgur.com/tGOoTKQ.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<img src="https://i.imgur.com/lzAtkls.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
 <br />
   
 XXIII. Run custom query, Visualize by map <br>
 <p align="center">
 <img src="https://i.imgur.com/NXAOkWV.png" height="80%" width="80%" alt="Deploy Virual Machine"/>
 <br />
+ 
+XIX. Refesh Map for new uploaods
+<p align="center">
+<img src="" height="80%" width="80%" alt="Deploy Virual Machine"/>
+<br />
+  
+XXX. Apply frameworks to remediate/mitigate risks.
+  
